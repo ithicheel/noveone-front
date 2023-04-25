@@ -1,0 +1,159 @@
+.dadad {
+    font-size: 2rem;
+    padding: 1rem;
+}
+.dash {
+    background: #fff;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.dash ul {
+    display: flex;
+}
+.dash ul li {
+    display: flex;
+    align-items: center;
+}
+.dash ul li div:nth-child(1) {
+    width: 70px;
+    height: 70px;
+    background: rgb(72, 168, 20);
+    margin: 0.5rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+.dash ul li div h3:nth-child(1) {
+    color: gray;
+}
+.dash ul li:nth-child(2) div:nth-child(1) {
+    background: rgb(147, 28, 28);
+}
+.dash ul li:nth-child(3) div:nth-child(1) {
+    background: rgb(147, 28, 147);
+}
+.content {
+    padding-left: 380px;
+    margin-right: 1rem;
+}
+.sdf {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.novels {
+    background: #fff;
+    border-radius: 20px;
+    /* margin-top: 2r/em; */
+    padding: 1rem;
+    height: 75vh;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px dotted #a5a5a5;
+    padding-bottom: 0.5rem;
+}
+.title div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 310px;
+}
+.novels h1 {
+    font-size: 2rem;
+    color: gray;
+    margin-bottom: 2rem;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dotted #a5a5a5;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+.title h3 {
+    margin-right: 1rem;
+}
+.list div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+.list h3 {
+    margin-right: 1rem;
+}
+
+.list div:nth-child(2) {
+    background: rgb(195, 110, 20);
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list div:nth-child(2) h3 {
+    margin: 0 0.5rem;
+}
+/* comment */
+.comment {
+    margin: 0 1rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.scroll {
+    overflow-y: scroll ;
+    height: 80vh;
+
+}
+.comment h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.commentItem {
+    display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #c6c6c6;
+    padding-bottom: 0.5rem;
+}
+.commentItem div:nth-child(1) {
+    background: #f5f5f5;
+    width: 40px;
+    height: 40px;
+}
+.commentItem div h3 {
+    color: #a5a5a5;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+}
+.scroll div{
+    color:gray;    
+}
+.scroll div:nth-child(1) {
+    color: #111 !important;    
+}
+.dd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.dd h1 {
+    margin-bottom: 0;
+}
+.dd button {
+    background: #747373;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+.chapterAdd {
+    background: #747373;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
